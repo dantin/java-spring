@@ -1,18 +1,17 @@
-package com.demo2do.spring.hello;
+package com.demo2do.spring.beans;
 
 /**
- * Hello World POJO
+ * Hello World Class
  */
 public class HelloWorld {
 
     private String message;
 
-    public String getMessage() {
-        return message;
-    }
-
     public void setMessage(String message) {
         this.message = message;
     }
 
+    public void getMessage() {
+        System.out.println("Your Message : " + message);
+    }
 }

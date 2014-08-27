@@ -1,5 +1,6 @@
 package com.demo2do.spring.hello;
 
+import com.demo2do.spring.beans.HelloWorld;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -13,6 +14,6 @@ public class HelloMainApp {
 
         HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
 
-        System.out.println("Your message: " + obj.getMessage());
+        obj.getMessage();
     }
 }

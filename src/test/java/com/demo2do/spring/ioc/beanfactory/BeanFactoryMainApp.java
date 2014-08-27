@@ -1,5 +1,6 @@
 package com.demo2do.spring.ioc.beanfactory;
 
+import com.demo2do.spring.beans.HelloWorld;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.core.io.ClassPathResource;
 

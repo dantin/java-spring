@@ -1,5 +1,6 @@
 package com.demo2do.spring.ioc.applicationcontext;
 
+import com.demo2do.spring.beans.HelloWorld;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
