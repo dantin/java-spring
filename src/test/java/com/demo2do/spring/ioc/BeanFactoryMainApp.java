@@ -1,4 +1,4 @@
-package com.demo2do.spring.ioc.beanfactory;
+package com.demo2do.spring.ioc;
 
 import com.demo2do.spring.beans.HelloWorld;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
